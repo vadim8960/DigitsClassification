@@ -23,7 +23,7 @@ from sklearn import datasets
 digits = datasets.load_digits()
 
 # dir function use to display the attributes of the dataset
-dir(digits)
+print(dir(digits))
 ```
 
 ### Функция для печати набора изображений
@@ -111,5 +111,5 @@ plt.show()
 predictions = mlp.predict(x_test)
 
 # calculating the accuracy with y_test and predictions
-accuracy_score(y_test, predictions)
+print(accuracy_score(y_test, predictions))
 ```
